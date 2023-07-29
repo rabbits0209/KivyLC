@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,requests,urllib3,chardet,idna,ffpyplayer
+requirements = python3.8,kivy,requests,urllib3,chardet,idna,ffpyplayer
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -218,7 +218,7 @@ android.add_libs_armeabi_v7a = libs/android-v7/*.so
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
 #android.arch = armeabi-v7a
-android.arch = armeabi-v7a
+android.archs = armeabi-v7a
 
 # (int) overrides automatic versionCode computation (used in build.gradle)
 # this is not the same as app version and should only be edited if you know what you're doing
