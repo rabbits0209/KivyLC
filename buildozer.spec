@@ -233,6 +233,7 @@ android.archs = armeabi-v7a
 
 # (str) python-for-android branch to use, defaults to master
 #p4a.branch = master
+p4a.branch = release-2022.12.20
 
 # (str) python-for-android git clone directory (if empty, it will be automatically cloned from github)
 #p4a.source_dir =
